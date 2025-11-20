@@ -1,0 +1,42 @@
+import pandas as pd
+import os
+
+# Small dataset
+small_data = [
+    [1, "CUST_A", "Unable to access shared mailbox", "Hi team, I'm unable to access the shared mailbox for our support team. It keeps showing a permissions error. Can you please check?", "access_issue"],
+    [2, "CUST_A", "Rules not working", "We created a rule to auto-assign emails based on subject line but it stopped working since yesterday.", "workflow_issue"],
+    [3, "CUST_A", "Email stuck in pending", "One of our emails is stuck in pending even after marking it resolved. Not sure what's happening.", "status_bug"],
+    [4, "CUST_B", "Automation creating duplicate tasks", "Your automation engine is creating 2 tasks for every email. This started after we edited our workflow.", "automation_bug"],
+    [5, "CUST_B", "Tags missing", "Many of our tags are not appearing for new emails. Looks like the tagging model is not working for us.", "tagging_issue"],
+    [6, "CUST_B", "Billing query", "We were charged incorrectly this month. Need a corrected invoice.", "billing"],
+    [7, "CUST_C", "CSAT not visible", "CSAT scores disappeared from our dashboard today. Is there an outage?", "analytics_issue"],
+    [8, "CUST_C", "Delay in email loading", "Opening a conversation takes 8–10 seconds. This is affecting our productivity.", "performance"],
+    [9, "CUST_C", "Need help setting up SLAs", "We want to configure SLAs for different customer tiers. Can someone guide us?", "setup_help"],
+    [10, "CUST_D", "Mail merge failing", "Mail merge is not sending emails even though the CSV is correct.", "mail_merge_issue"],
+    [11, "CUST_D", "Can't add new user", "Trying to add a new team member but getting an 'authorization required' error.", "user_management"],
+    [12, "CUST_D", "Feature request: Dark mode", "Dark mode would help during late-night support hours. Please consider this.", "feature_request"]
+]
+
+df_small = pd.DataFrame(small_data, columns=['email_id', 'customer_id', 'subject', 'body', 'tag'])
+df_small.to_csv('data/emails_small.csv', index=False)
+print("✓ Created emails_small.csv")
+
+# Large dataset (I'll provide partial - you can extend)
+large_data = small_data + [
+    [13, "CUST_A", "Tag suggestions incorrect", "Tag suggestions are showing irrelevant tags like billing for product related emails.", "tagging_accuracy"],
+    [14, "CUST_B", "CSAT not calculated", "CSAT scores stopped generating since last week.", "analytics_issue"],
+    [15, "CUST_C", "Mail merge stuck", "Mail merge gets stuck processing at 0%.", "mail_merge_issue"],
+    # Add more from PDF...
+]
+
+df_large = pd.DataFrame(large_data, columns=['email_id', 'customer_id', 'subject', 'body', 'tag'])
+df_large.to_csv('data/emails_large.csv', index=False)
+print("✓ Created emails_large.csv")
+
+# Sentiment emails (select 10 from existing data)
+sentiment_data = small_data[:10]
+df_sentiment = pd.DataFrame(sentiment_data, columns=['email_id', 'customer_id', 'subject', 'body', 'tag'])
+df_sentiment.to_csv('data/sentiment_emails.csv', index=False)
+print("✓ Created sentiment_emails.csv")
+
+print("\n Data preparation complete!")

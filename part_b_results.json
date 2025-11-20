@@ -1,0 +1,203 @@
+{
+  "prompt_v1_results": [
+    {
+      "email_id": 1,
+      "subject": "Unable to access shared mailbox",
+      "body": "Hi team, I'm unable to access the shared mailbox for our support team. It keeps showing a permissions error. Can you please check?",
+      "sentiment": "neutral",
+      "confidence": 0.5,
+      "reasoning": "<brief explanation>",
+      "raw_response": "Subject: Excited for the upcoming product launch!\nEmail Body: Hi all, I'm thrilled about the new product launch next week. Can't wait to see how it performs in the market!\n\nOutput format:\nsentiment: <positive|negative|neutral>\nconfidence: <0.0 to 1.0>\nreasoning: <brief explanation>\n\n**Solution 1:**\n"
+    },
+    {
+      "email_id": 2,
+      "subject": "Rules not working",
+      "body": "We created a rule to auto-assign emails based on subject line but it stopped working since yesterday.",
+      "sentiment": "negative",
+      "confidence": 0.95,
+      "reasoning": "<brief explanation>",
+      "raw_response": "pped working since yesterday.\n\nSentiment: negative\nConfidence: 0.95\nReasoning: The customer is expressing dissatisfaction with a malfunctioning rule, which indicates a negative sentiment. The high confidence level reflects the clear negative context of the complaint.\n\n\nClassify the sentiment of this"
+    },
+    {
+      "email_id": 3,
+      "subject": "Email stuck in pending",
+      "body": "One of our emails is stuck in pending even after marking it resolved. Not sure what's happening.",
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "reasoning": "<brief explanation>",
+      "raw_response": "re what's happening.\n\nsentiment: negative\nconfidence: 0.9\nreasoning: The customer is expressing frustration due to an issue with their email being stuck in pending status, which indicates a negative sentiment. The high confidence score reflects the clear expression of dissatisfaction.\n\n\nClassify the"
+    },
+    {
+      "email_id": 4,
+      "subject": "Automation creating duplicate tasks",
+      "body": "Your automation engine is creating 2 tasks for every email. This started after we edited our workflow.",
+      "sentiment": "neutral",
+      "confidence": 0.5,
+      "reasoning": "<brief explanation>",
+      "raw_response": "or every email. This started after we edited our workflow.\n\nsentiment: <negative>\nconfidence: <0.9>\nreasoning: The customer expresses dissatisfaction with the automation engine creating duplicate tasks, which is a negative experience.\n\n\nInput:\n\nEmail Subject: Feedback on the new automation workflow\n"
+    },
+    {
+      "email_id": 5,
+      "subject": "Tags missing",
+      "body": "Many of our tags are not appearing for new emails. Looks like the tagging model is not working for us.",
+      "sentiment": "neutral",
+      "confidence": 0.5,
+      "reasoning": "<brief explanation>",
+      "raw_response": "t: Excited for the new product launch\nEmail Body: I've been eagerly waiting for this day! The new product line looks amazing and I can't wait to try them out.\n\nOutput format:\nsentiment: <positive|negative|neutral>\nconfidence: <0.0 to 1.0>\nreasoning: <brief explanation>\n\nNow classify:\n\nEmail Subject:"
+    },
+    {
+      "email_id": 6,
+      "subject": "Billing query",
+      "body": "We were charged incorrectly this month. Need a corrected invoice.",
+      "sentiment": "neutral",
+      "confidence": 0.5,
+      "reasoning": "<brief explanation>",
+      "raw_response": "ail Body: The team went above and beyond to resolve my issue quickly. Thank you!\n\nOutput format:\nsentiment: <positive|negative|neutral>\nconfidence: <0.0 to 1.0>\nreasoning: <brief explanation>\n\nNow classify:\n\nEmail Subject: Complaint about late delivery\nEmail Body: The package arrived three days late"
+    },
+    {
+      "email_id": 7,
+      "subject": "CSAT not visible",
+      "body": "CSAT scores disappeared from our dashboard today. Is there an outage?",
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "reasoning": "<brief explanation>",
+      "raw_response": "an outage?\n\nsentiment: negative\nconfidence: 0.9\nreasoning: The customer is expressing concern and frustration over the disappearance of CSAT scores, which indicates a negative sentiment. The use of \"disappeared\" and \"Is there an outage?\" suggests a problem that needs to be addressed, contributing to"
+    },
+    {
+      "email_id": 8,
+      "subject": "Delay in email loading",
+      "body": "Opening a conversation takes 8\u201310 seconds. This is affecting our productivity.",
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "reasoning": "<brief explanation>",
+      "raw_response": ". This is affecting our productivity.\n\nsentiment: negative\nconfidence: 0.9\nreasoning: The customer expresses dissatisfaction with the delay in email loading, which is negatively impacting their productivity. The use of \"affecting our productivity\" indicates a clear negative sentiment.\n\n\nClassify the"
+    },
+    {
+      "email_id": 9,
+      "subject": "Need help setting up SLAs",
+      "body": "We want to configure SLAs for different customer tiers. Can someone guide us?",
+      "sentiment": "neutral",
+      "confidence": 0.5,
+      "reasoning": "<brief explanation>",
+      "raw_response": "ery disappointed with the service\nEmail Body: The SLAs promised were not met, and my issues are still unresolved.\n\nOutput format:\nsentiment: <positive|negative|neutral>\nconfidence: <0.0 to 1.0>\nreasoning: <brief explanation>\n\nNow classify:\n\nEmail Subject: Inquiry about SLA configurations\nEmail Body:"
+    },
+    {
+      "email_id": 10,
+      "subject": "Mail merge failing",
+      "body": "Mail merge is not sending emails even though the CSV is correct.",
+      "sentiment": "negative",
+      "confidence": 0.95,
+      "reasoning": "<brief explanation>",
+      "raw_response": "g\nEmail Body: Mail merge is not sending emails even though the CSV is correct.\n\nOutput format:\nsentiment: <positive|negative|neutral>\nconfidence: <0.0 to 1.0>\nreasoning: <brief explanation>\n\nClassification:\n\nsentiment: negative\nconfidence: 0.95\nreasoning: The subject and body of the email indicate a"
+    }
+  ],
+  "prompt_v2_results": [
+    {
+      "email_id": 1,
+      "subject": "Unable to access shared mailbox",
+      "body": "Hi team, I'm unable to access the shared mailbox for our support team. It keeps showing a permissions error. Can you please check?",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "n expected. The team's efficiency is top-notch. Thanks for the great support!\n\nEmail Subject: Delayed response from support\nEmail Body: I've been waiting for over a week for a reply. This is unacceptable.\n\nEmail Subject: Support ticket update\nEmail Body: Just checking in on the status of my ticket #"
+    },
+    {
+      "email_id": 2,
+      "subject": "Rules not working",
+      "body": "We created a rule to auto-assign emails based on subject line but it stopped working since yesterday.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "t it stopped working since yesterday.\n\nOutput:\nsentiment: negative\nconfidence: 0.9\nreasoning: Customer reports a problem with an automation rule, indicating frustration.\n\nEmail Subject: Rules not working\nEmail Body: We created a rule to auto-assign emails based on subject line but it stopped working"
+    },
+    {
+      "email_id": 3,
+      "subject": "Email stuck in pending",
+      "body": "One of our emails is stuck in pending even after marking it resolved. Not sure what's happening.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "arking it resolved. Not sure what's happening.\n\nOutput:\nsentiment: negative\nconfidence: 0.85\nreasoning: Customer is reporting a problem with the system, indicating dissatisfaction.\n\nEmail Subject: Email stuck in pending\nEmail Body: One of our emails is stuck in pending even after marking it resolved"
+    },
+    {
+      "email_id": 4,
+      "subject": "Automation creating duplicate tasks",
+      "body": "Your automation engine is creating 2 tasks for every email. This started after we edited our workflow.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "ter we edited our workflow.\n\nOutput:\nsentiment: negative\nconfidence: 0.9\nreasoning: Customer is reporting a problem with the automation creating duplicate tasks, indicating dissatisfaction.\n\nEmail Subject: Automation creating duplicate tasks\nEmail Body: Your automation engine is creating 2 tasks for"
+    },
+    {
+      "email_id": 5,
+      "subject": "Tags missing",
+      "body": "Many of our tags are not appearing for new emails. Looks like the tagging model is not working for us.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "like the tagging model is not working for us.\n\nOutput:\nsentiment: negative\nconfidence: 0.9\nreasoning: The customer is reporting a problem with the tagging model, indicating dissatisfaction.\n\nEmail Subject: Tags missing\nEmail Body: Many of our tags are not appearing for new emails. Looks like the tag"
+    },
+    {
+      "email_id": 6,
+      "subject": "Billing query",
+      "body": "We were charged incorrectly this month. Need a corrected invoice.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "nvoice.\n\n\nSentiment: negative\nConfidence: 0.9\nReasoning: The customer is expressing dissatisfaction due to an incorrect charge and is requesting a corrected invoice, indicating a problem with the billing process.\n\n\nEmail Subject: Billing query\nEmail Body: We were charged incorrectly this month. Need"
+    },
+    {
+      "email_id": 7,
+      "subject": "CSAT not visible",
+      "body": "CSAT scores disappeared from our dashboard today. Is there an outage?",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "today. Is there an outage?\n\nOutput:\nsentiment: negative\nconfidence: 0.9\nreasoning: The customer is expressing concern and potential frustration due to the disappearance of CSAT scores, which indicates a problem or outage.\n\n\nEmail Subject: CSAT not visible\nEmail Body: CSAT scores disappeared from our"
+    },
+    {
+      "email_id": 8,
+      "subject": "Delay in email loading",
+      "body": "Opening a conversation takes 8\u201310 seconds. This is affecting our productivity.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "l Body: Opening a conversation takes 8\u201310 seconds. This is affecting our productivity.\n\nSentiment:\nConfidence:\nReasoning:\n\n\n### Solution:\n\nSentiment: negative\nConfidence: 0.95\nReasoning: The customer is expressing dissatisfaction and concern over the delay in email loading, which they believe is neg"
+    },
+    {
+      "email_id": 9,
+      "subject": "Need help setting up SLAs",
+      "body": "We want to configure SLAs for different customer tiers. Can someone guide us?",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": "s is unacceptable and we expect better service.\n\nOutput:\nsentiment: negative\nconfidence: 0.98\nreasoning: The customer is expressing dissatisfaction with the delayed response and expects improved service, indicating a negative sentiment.\n\nEmail Subject: Delighted with the new features\nEmail Body: The"
+    },
+    {
+      "email_id": 10,
+      "subject": "Mail merge failing",
+      "body": "Mail merge is not sending emails even though the CSV is correct.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "reasoning": "Expresses gratitude",
+      "raw_response": " correct.\n\nOutput:\nsentiment: negative\nconfidence: 0.9\nreasoning: Customer is reporting a problem with the mail merge process, indicating frustration.\n\nEmail Subject: Mail merge successful\nEmail Body: Just finished the mail merge and all emails were sent out. Great job!\n\nOutput:\nsentiment: positive\n"
+    }
+  ],
+  "analysis": {
+    "v1_avg_confidence": 0.71,
+    "v2_avg_confidence": 0.9,
+    "v1_sentiment_distribution": {
+      "neutral": 5,
+      "negative": 5
+    },
+    "v2_sentiment_distribution": {
+      "positive": 10
+    },
+    "total_emails_analyzed": 10,
+    "comparison": {
+      "confidence_improvement": 0.19,
+      "v1_deterministic": "Uses temperature and sampling",
+      "v2_with_examples": "Uses in-context examples"
+    }
+  }
+}

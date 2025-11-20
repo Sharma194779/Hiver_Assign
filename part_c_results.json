@@ -1,0 +1,160 @@
+[
+  {
+    "question": "How do I configure automations in Hiver?",
+    "top_k": 5,
+    "retrieved_docs": [
+      {
+        "content": "How to Configure Automations in Hiver Automations in Hiver help you streamline repetitive tasks. Here's how to set them up: 1. Navigate to Settings > Automations 2. Click \"Create New Automation\" 3. Define triggers (e.g., email received, tag added) 4....",
+        "distance": 0.2737159729003906,
+        "similarity": 0.8631420049183847,
+        "metadata": {
+          "filename": "automation_setup.txt",
+          "chunk_id": 0,
+          "length": 824
+        }
+      },
+      {
+        "content": "Email Assignment in Hiver How email assignment works: Manual Assignment: - Open email conversation - Click \"Assign\" button - Select team member - Add optional note Auto-Assignment: - Set up automation rules - Define assignment criteria (tags, keyword...",
+        "distance": 0.5122348666191101,
+        "similarity": 0.7438826929974488,
+        "metadata": {
+          "filename": "email_assignment.txt",
+          "chunk_id": 0,
+          "length": 649
+        }
+      },
+      {
+        "content": "Setting Up SLAs in Hiver Service Level Agreements (SLAs) help track response times: SLA Setup Steps: 1. Go to Settings > SLAs 2. Create SLA policy 3. Define response time targets (e.g., 2 hours first response) 4. Set resolution time goals 5. Choose w...",
+        "distance": 0.6153717637062073,
+        "similarity": 0.6923142602353657,
+        "metadata": {
+          "filename": "sla_configuration.txt",
+          "chunk_id": 0,
+          "length": 745
+        }
+      },
+      {
+        "content": "CSAT (Customer Satisfaction) Analytics in Hiver Understanding your CSAT metrics: What is CSAT? Customer Satisfaction Score measures customer happiness after interactions. Where to find CSAT: - Dashboard > Analytics > CSAT - Individual conversation vi...",
+        "distance": 0.8020361661911011,
+        "similarity": 0.5989819705192746,
+        "metadata": {
+          "filename": "csat_analytics.txt",
+          "chunk_id": 0,
+          "length": 875
+        }
+      },
+      {
+        "content": "Workflow and Rules Troubleshooting Common workflow issues and solutions: Rules Not Triggering: 1. Verify rule is enabled (Settings > Workflows) 2. Check conditions match email attributes exactly 3. Review order of rules (first match wins) 4. Check fo...",
+        "distance": 0.8028268218040466,
+        "similarity": 0.5985866129144329,
+        "metadata": {
+          "filename": "workflow_troubleshooting.txt",
+          "chunk_id": 0,
+          "length": 872
+        }
+      }
+    ],
+    "reranked_docs": [
+      {
+        "content": "How to Configure Automations in Hiver Automations in Hiver help you streamline repetitive tasks. Here's how to set them up: 1. Navigate to Settings > Automations 2. Click \"Create New Automation\" 3. Define triggers (e.g., email received, tag added) 4....",
+        "similarity": 0.8631420049183847
+      },
+      {
+        "content": "Email Assignment in Hiver How email assignment works: Manual Assignment: - Open email conversation - Click \"Assign\" button - Select team member - Add optional note Auto-Assignment: - Set up automation rules - Define assignment criteria (tags, keyword...",
+        "similarity": 0.7438826929974488
+      },
+      {
+        "content": "Setting Up SLAs in Hiver Service Level Agreements (SLAs) help track response times: SLA Setup Steps: 1. Go to Settings > SLAs 2. Create SLA policy 3. Define response time targets (e.g., 2 hours first response) 4. Set resolution time goals 5. Choose w...",
+        "similarity": 0.6923142602353657
+      }
+    ],
+    "answer": "1. Navigate to Settings > Automations",
+    "confidence": 0.85,
+    "sources": [
+      "automation_setup.txt",
+      "email_assignment.txt",
+      "sla_configuration.txt",
+      "csat_analytics.txt",
+      "workflow_troubleshooting.txt"
+    ]
+  },
+  {
+    "question": "Why is CSAT not appearing in my dashboard?",
+    "top_k": 5,
+    "retrieved_docs": [
+      {
+        "content": "CSAT (Customer Satisfaction) Analytics in Hiver Understanding your CSAT metrics: What is CSAT? Customer Satisfaction Score measures customer happiness after interactions. Where to find CSAT: - Dashboard > Analytics > CSAT - Individual conversation vi...",
+        "distance": 0.49854156374931335,
+        "similarity": 0.7507292553215344,
+        "metadata": {
+          "filename": "csat_analytics.txt",
+          "chunk_id": 0,
+          "length": 875
+        }
+      },
+      {
+        "content": "Setting Up SLAs in Hiver Service Level Agreements (SLAs) help track response times: SLA Setup Steps: 1. Go to Settings > SLAs 2. Create SLA policy 3. Define response time targets (e.g., 2 hours first response) 4. Set resolution time goals 5. Choose w...",
+        "distance": 0.8355001211166382,
+        "similarity": 0.5822499932238258,
+        "metadata": {
+          "filename": "sla_configuration.txt",
+          "chunk_id": 0,
+          "length": 745
+        }
+      },
+      {
+        "content": "How to Configure Automations in Hiver Automations in Hiver help you streamline repetitive tasks. Here's how to set them up: 1. Navigate to Settings > Automations 2. Click \"Create New Automation\" 3. Define triggers (e.g., email received, tag added) 4....",
+        "distance": 0.8531688451766968,
+        "similarity": 0.5734155716774959,
+        "metadata": {
+          "filename": "automation_setup.txt",
+          "chunk_id": 0,
+          "length": 824
+        }
+      },
+      {
+        "content": "Workflow and Rules Troubleshooting Common workflow issues and solutions: Rules Not Triggering: 1. Verify rule is enabled (Settings > Workflows) 2. Check conditions match email attributes exactly 3. Review order of rules (first match wins) 4. Check fo...",
+        "distance": 0.8556691408157349,
+        "similarity": 0.5721654238704784,
+        "metadata": {
+          "filename": "workflow_troubleshooting.txt",
+          "chunk_id": 0,
+          "length": 872
+        }
+      },
+      {
+        "content": "Email Assignment in Hiver How email assignment works: Manual Assignment: - Open email conversation - Click \"Assign\" button - Select team member - Add optional note Auto-Assignment: - Set up automation rules - Define assignment criteria (tags, keyword...",
+        "distance": 0.8985396027565002,
+        "similarity": 0.5507301961382032,
+        "metadata": {
+          "filename": "email_assignment.txt",
+          "chunk_id": 0,
+          "length": 649
+        }
+      }
+    ],
+    "reranked_docs": [
+      {
+        "content": "CSAT (Customer Satisfaction) Analytics in Hiver Understanding your CSAT metrics: What is CSAT? Customer Satisfaction Score measures customer happiness after interactions. Where to find CSAT: - Dashboard > Analytics > CSAT - Individual conversation vi...",
+        "similarity": 0.7507292553215344
+      },
+      {
+        "content": "Setting Up SLAs in Hiver Service Level Agreements (SLAs) help track response times: SLA Setup Steps: 1. Go to Settings > SLAs 2. Create SLA policy 3. Define response time targets (e.g., 2 hours first response) 4. Set resolution time goals 5. Choose w...",
+        "similarity": 0.5822499932238258
+      },
+      {
+        "content": "How to Configure Automations in Hiver Automations in Hiver help you streamline repetitive tasks. Here's how to set them up: 1. Navigate to Settings > Automations 2. Click \"Create New Automation\" 3. Define triggers (e.g., email received, tag added) 4....",
+        "similarity": 0.5734155716774959
+      }
+    ],
+    "answer": "The knowledge base does not contain information about this.",
+    "confidence": 0.803,
+    "sources": [
+      "csat_analytics.txt",
+      "sla_configuration.txt",
+      "automation_setup.txt",
+      "workflow_troubleshooting.txt",
+      "email_assignment.txt"
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "accuracy": 0.75,
+  "correct": 3,
+  "total": 4,
+  "predictions": [
+    {
+      "email_id": 3,
+      "customer_id": "CUST_A",
+      "subject": "Email stuck in pending",
+      "ground_truth": "status_bug",
+      "predicted": "workflow_issue",
+      "correct": false,
+      "predicted_tag": "workflow_issue",
+      "pattern_match": false,
+      "anti_pattern_detected": false,
+      "confidence": 0.5
+    },
+    {
+      "email_id": 6,
+      "customer_id": "CUST_B",
+      "subject": "Billing query",
+      "ground_truth": "billing",
+      "predicted": "billing",
+      "correct": true,
+      "predicted_tag": "billing",
+      "pattern_match": true,
+      "anti_pattern_detected": false,
+      "confidence": 0.8
+    },
+    {
+      "email_id": 9,
+      "customer_id": "CUST_C",
+      "subject": "Need help setting up SLAs",
+      "ground_truth": "setup_help",
+      "predicted": "setup_help",
+      "correct": true,
+      "predicted_tag": "setup_help",
+      "pattern_match": true,
+      "anti_pattern_detected": false,
+      "confidence": 0.8
+    },
+    {
+      "email_id": 12,
+      "customer_id": "CUST_D",
+      "subject": "Feature request: Dark mode",
+      "ground_truth": "feature_request",
+      "predicted": "feature_request",
+      "correct": true,
+      "predicted_tag": "feature_request",
+      "pattern_match": true,
+      "anti_pattern_detected": false,
+      "confidence": 0.8
+    }
+  ]
+}
